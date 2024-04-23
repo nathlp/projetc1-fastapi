@@ -13,12 +13,12 @@ The goal of this exercise is to create both a synchronous and an asynchronous ro
 
 1 - Execute the command for create a virtual environment:
 ```bash
-     poetry shell
+poetry install
 ```
 
 2 - Execute the application command:
 ```bash
-     uvicorn main:app --reload
+uvicorn main:app --reload
 ```
 
 ## Access the Application ##
